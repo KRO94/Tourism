@@ -2,12 +2,20 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
-
+	/*--------------BLOCK2 START--------------*/
+	.block2 {
+		font-size: 5rem;
+	}
+	/*---------------BLOCK2 END---------------*/
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 991px) {
-
+	/*--------------BLOCK2 START--------------*/
+	.block2 {
+		padding: 110px 0 240px;
+	}
+	/*---------------BLOCK2 END---------------*/
 }
 
 /* Small Devices, Tablets */
@@ -23,7 +31,7 @@
 			top: 71px;
 			left: 0px;
 			margin-top: 0px;
-			background: rgba(255,255,255, .5);
+			background: rgba(255,255,255, .9);
 			max-width: 100%;
 			display: none;
 			z-index: 6;
@@ -40,11 +48,23 @@
 			display: block;
 		}
 	/*---------------HEADER END---------------*/
+
+	/*--------------BLOCK2 START--------------*/
+	.block2 {
+		font-size: 4rem;
+		padding: 55px 0 121px;
+	}
+	/*---------------BLOCK2 END---------------*/
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	/*--------------BLOCK2 START--------------*/
+	.block2 {
+		font-size: 2.3rem;
+		padding: 44px 0 96px;
+	}
+	/*---------------BLOCK2 END---------------*/
 }
 
 /* Custom, iPhone Retina */
