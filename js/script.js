@@ -40,4 +40,15 @@ jQuery(document).ready(function(){
 	$('fancybox').fancybox();
 /*------------GALLERY IMG------------*/
 
+/*------------GRAPHICS SLIDER------------*/
+	$('.reviews-slider').owlCarousel({
+			items: 1,
+			loop:true,
+			nav:true,
+			dots: false,
+			autoplay: true,
+			autoplaySpeed: 5000
+	})
+/*------------GRAPHICS SLIDER------------*/
+
 });

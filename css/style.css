@@ -419,3 +419,71 @@ header {
 		max-width: 316px;
 	}
 /*---------------REQUEST-BLOCK END---------------*/
+
+/*--------------REVIEWS-BLOCK START--------------*/
+.reviews-block {
+	position: relative;
+	width: 100%;
+	padding: 60px 0 65px;
+	text-align: center;
+}
+	.reviews-block .reviews-slider {
+		margin-top: 45px;
+	}
+		.reviews-block .reviews-slider .wrapReviews {
+			position: relative;
+			max-width: 945px;
+			width: 90%;
+			margin: 0 auto;
+		}
+			.reviews-block .reviews-slider .wrapReviews .blockImg {
+				position: relative;
+				display: inline-block;
+				width: 134px;
+				height: 134px;
+				border-radius: 50%;
+				z-index: 1;
+				overflow: hidden;
+			}
+				.reviews-block .reviews-slider .wrapReviews .blockImg img {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					max-width: 1140px;
+					min-height:	134px;
+				}
+			.reviews-block .reviews-slider .wrapReviews .blockText {
+				position: relative;
+				padding: 25px 0 45px;
+				font-size: 1.8rem;
+				line-height: 26px;
+			}
+				.reviews-block .reviews-slider .wrapReviews .blockText p {
+					margin-bottom: 25px;
+				}
+				.reviews-block .reviews-slider .wrapReviews .blockText span {
+					text-transform: uppercase;
+					color: #016633;
+					font-weight: 700;
+				}
+		.reviews-block .reviews-slider .owl-nav {
+			position: absolute;
+			width: 100%;
+			top: 50%;
+			margin-top: -12px;
+		}
+			.reviews-block .reviews-slider .owl-nav div {
+				font-size: 2.2rem;
+				line-height: 24px;
+			}
+			.reviews-block .reviews-slider .owl-nav .owl-prev {
+				float: left;
+			}
+			.reviews-block .reviews-slider .owl-nav .owl-next {
+				float: right;
+			}
+	.reviews-block .more-reviews {
+		max-width: 230px;
+	}
+/*---------------REVIEWS-BLOCK END---------------*/

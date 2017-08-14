@@ -244,6 +244,12 @@
 			font-size: 1.6rem;
 		}
 	/*---------------REQUEST-BLOCK END---------------*/
+
+	/*--------------REVIEWS-BLOCK START--------------*/
+				.reviews-block .reviews-slider .wrapReviews .blockText {
+					font-size: 1.6rem;
+				}
+	/*---------------REVIEWS-BLOCK END---------------*/
 }
 
 /* Custom, iPhone Retina */
