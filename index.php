@@ -3,5 +3,6 @@
 	<?php require_once 'pages/block2.php'; ?>
 	<?php require_once 'pages/travels_block.php'; ?>
 	<?php require_once 'pages/graphic_block.php'; ?>
+	<?php require_once 'pages/travels_block_1.php'; ?>
 
 	<?php require_once 'footer.php'; ?>
