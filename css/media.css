@@ -7,6 +7,12 @@
 		font-size: 5rem;
 	}
 	/*---------------BLOCK2 END---------------*/
+
+	/*--------------TRAVELS-BLOCK START--------------*/
+			.travels-block .travels-slider .owl-nav {
+				display: none;
+			}
+	/*---------------TRAVELS-BLOCK END---------------*/
 }
 
 /* Medium Devices, Desktops */
@@ -16,6 +22,17 @@
 		padding: 110px 0 240px;
 	}
 	/*---------------BLOCK2 END---------------*/
+
+	/*--------------TRAVELS-BLOCK START--------------*/
+			.travels-block .travels-slider .blockTour:not(:nth-child(3n)),
+			.travels-block .travels-slider .blockTour {
+				width: 49%;
+				margin-right: 0;
+			}
+			.travels-block .travels-slider .blockTour:not(:nth-child(2n)) {
+				margin-right: 2%;
+			}
+	/*---------------TRAVELS-BLOCK END---------------*/
 }
 
 /* Small Devices, Tablets */
@@ -25,6 +42,12 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 640px) {
+	.title {
+		font-size: 3.6rem;
+	}
+		.title hr {
+			margin-top: 10px;
+		}
 	/*--------------HEADER START--------------*/
 		header ul.menu {
 			position: absolute;
@@ -55,16 +78,37 @@
 		padding: 55px 0 121px;
 	}
 	/*---------------BLOCK2 END---------------*/
+
+	/*--------------TRAVELS-BLOCK START--------------*/
+			.travels-block .travels-slider .blockTour:not(:nth-child(2n)),
+			.travels-block .travels-slider .blockTour:not(:nth-child(3n)),
+			.travels-block .travels-slider .blockTour {
+				float: none;
+				margin-left: auto;
+				margin-right: auto;
+				width: 100%;
+			}
+	/*---------------TRAVELS-BLOCK END---------------*/
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.title {
+		font-size: 2.4rem;
+	}
 	/*--------------BLOCK2 START--------------*/
 	.block2 {
 		font-size: 2.3rem;
 		padding: 44px 0 96px;
 	}
 	/*---------------BLOCK2 END---------------*/
+
+	/*--------------TRAVELS-BLOCK START--------------*/
+					.travels-block .travels-slider .blockTour .blockText .name,
+					.travels-block .travels-slider .blockTour .blockText .price {
+						font-size: 1.8rem;
+					}
+	/*---------------TRAVELS-BLOCK END---------------*/
 }
 
 /* Custom, iPhone Retina */

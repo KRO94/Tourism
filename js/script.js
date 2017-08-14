@@ -14,4 +14,15 @@ jQuery(document).ready(function(){
 	});
 /*------------MOBILE MENU------------*/
 
+/*------------TRAVELS SLIDER------------*/
+	$('.travels-slider').owlCarousel({
+			items: 1,
+			loop:true,
+			nav:true,
+			dots: false,
+			autoplay: true,
+			autoplaySpeed: 5000
+	})
+/*------------TRAVELS SLIDER------------*/
+
 });
