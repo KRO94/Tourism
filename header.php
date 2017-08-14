@@ -12,6 +12,7 @@
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/media.css" rel="stylesheet">
 		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/jquery.fancybox.min.css" rel="stylesheet">
 		<link href="owl-carousel/owl.carousel.css" rel="stylesheet">
 
 		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900&amp;subset=cyrillic" rel="stylesheet">

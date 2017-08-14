@@ -11,7 +11,7 @@
 				<div class="emptyForImg"></div>
 				<div class="blockText">
 					<div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 14 листопада</div>
-					<a href='#' class="name">ГУЦУЛЬСЬКІ ПРИГОДИ</a>
+					<a href='#' class="name">Одноденні</a>
 					<hr>
 					<div class="price">1600 грн</div>
 				</div>
@@ -23,7 +23,7 @@
 				<div class="emptyForImg"></div>
 				<div class="blockText">
 					<div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 14 листопада</div>
-					<a href='#' class="name">ЗАКАРПАТСЬКИЙ ВОЯЖ</a>
+					<a href='#' class="name">Дводенні</a>
 					<hr>
 					<div class="price">1600 грн</div>
 				</div>
@@ -35,7 +35,7 @@
 				<div class="emptyForImg"></div>
 				<div class="blockText">
 					<div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 14 листопада</div>
-					<a href='#' class="name">ПРИДНІСТРОВСЬКИЙ КРУЇЗ</a>
+					<a href='#' class="name">Триденні</a>
 					<hr>
 					<div class="price">1600 грн</div>
 				</div>

@@ -36,4 +36,8 @@ jQuery(document).ready(function(){
 	})
 /*------------GRAPHICS SLIDER------------*/
 
+/*------------GALLERY IMG------------*/
+	$('fancybox').fancybox();
+/*------------GALLERY IMG------------*/
+
 });
