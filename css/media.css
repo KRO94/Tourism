@@ -13,6 +13,12 @@
 				display: none;
 			}
 	/*---------------TRAVELS-BLOCK END---------------*/
+
+	/*--------------GRAPHIC-BLOCK START--------------*/
+			.graphic-block .graphics-slider .owl-nav {
+				display: none;
+			}
+	/*---------------GRAPHIC-BLOCK END---------------*/
 }
 
 /* Medium Devices, Desktops */
@@ -33,11 +39,27 @@
 				margin-right: 2%;
 			}
 	/*---------------TRAVELS-BLOCK END---------------*/
+
+	/*--------------GRAPHIC-BLOCK START--------------*/
+			.blockGraphic,
+			.blockGraphic:nth-child(4) {
+				width: 36.52%;
+				margin-right: 6.74%;
+				margin-left: 6.74%;
+			}
+	/*---------------GRAPHIC-BLOCK END---------------*/
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
-
+	/*--------------GRAPHIC-BLOCK START--------------*/
+			.blockGraphic,
+			.blockGraphic:nth-child(4) {
+				width: 40%;
+				margin-right: 5%;
+				margin-left: 5%;
+			}
+	/*---------------GRAPHIC-BLOCK END---------------*/
 }
 
 /* Extra Small Devices, Phones */
@@ -89,6 +111,15 @@
 				width: 100%;
 			}
 	/*---------------TRAVELS-BLOCK END---------------*/
+
+	/*--------------GRAPHIC-BLOCK START--------------*/
+			.blockGraphic,
+			.blockGraphic:nth-child(4) {
+				width: 44%;
+				margin-right: 3%;
+				margin-left: 3%;
+			}
+	/*---------------GRAPHIC-BLOCK END---------------*/
 }
 
 /* Extra Small Devices, Phones */
@@ -109,6 +140,16 @@
 						font-size: 1.8rem;
 					}
 	/*---------------TRAVELS-BLOCK END---------------*/
+
+	/*--------------GRAPHIC-BLOCK START--------------*/
+			.blockGraphic,
+			.blockGraphic:nth-child(4) {
+				width: 100%;
+				margin-right: auto;
+				margin-left: auto;
+				float: none;
+			}
+	/*---------------GRAPHIC-BLOCK END---------------*/
 }
 
 /* Custom, iPhone Retina */

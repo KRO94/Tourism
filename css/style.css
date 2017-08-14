@@ -42,6 +42,25 @@ p, hr, ol, ul {
 	position: relative;
 	float: right;
 }
+.press-btn {
+	position: relative;
+	line-height: 54px;
+	border-radius: 27px;
+	display: inline-block;
+	width: 100%;
+	max-width: 283px;
+	font-family: 'Source Sans Pro';
+	font-size: 1.8rem;
+	color: #ffffff;
+	font-weight: 700;
+	background: #90be20;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+.press-btn:hover {
+	box-shadow: inset 0 0 0 27px #7ea61d;
+}
 /*--------------HEADER START--------------*/
 header {
 	position: relative;
@@ -214,3 +233,87 @@ header {
 				margin-right: .5%;
 			}
 /*---------------TRAVELS-BLOCK END---------------*/
+
+/*--------------GRAPHIC-BLOCK START--------------*/
+.graphic-block {
+	position: relative;
+	width: 100%;
+	padding: 60px 0;
+	background: #f2f2f2;
+}
+	.graphic-block .graphics-slider {
+		position: relative;
+		width: 100%;
+	}
+		.blockGraphic {
+			position: relative;
+			float: left;
+			max-width: 263px;
+			width: 23.07%;
+			margin-top: 30px;
+			margin-right: 2.57%;
+		}
+		.blockGraphic:nth-child(4) {
+			margin-right: 0;
+		}
+			.blockGraphic .blockImg {
+				position: relative;
+				display: block;
+				width: 100%;
+				height: 211px;
+			}
+				.blockGraphic .blockImg img {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					max-width: 1140px;
+					min-height: 211px;
+				}
+			.blockGraphic .blockText {
+				position: relative;
+				width: 100%;
+				padding: 15px 10px 20px;
+				background: #ffffff;
+				text-align: center;
+			}
+				.blockGraphic .blockText .name {
+					font-family: 'Source Sans Pro';
+					font-weight: 700;
+					font-size: 1.8rem;
+					line-height: 24px;
+					color: #016633;
+					margin-bottom: 15px;
+				}
+				.blockGraphic .blockText .review {
+					line-height: 35px;
+					width: 115px;
+					font-weight: 600;
+					font-size: 1.3rem;
+				}
+		.graphic-block .graphics-slider .owl-nav {
+			position: absolute;
+			width: 100%;
+			margin-top: -27px;
+			top: 50%;
+			left: 0;
+		}
+			.graphic-block .graphics-slider .owl-nav div {
+				width: 54px;
+				height: 54px;
+				line-height: 54px;
+				text-align: center;
+				font-size: 2.4rem;
+				color: #ffffff;
+				border-radius: 50%;
+				background: #90be20;
+			}
+			.graphic-block .graphics-slider .owl-nav .owl-prev {
+				float: left;
+				margin-left: .5%;
+			}
+			.graphic-block .graphics-slider .owl-nav .owl-next {
+				float: right;
+				margin-right: .5%;
+			}
+/*---------------GRAPHIC-BLOCK END---------------*/

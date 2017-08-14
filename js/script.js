@@ -25,4 +25,15 @@ jQuery(document).ready(function(){
 	})
 /*------------TRAVELS SLIDER------------*/
 
+/*------------GRAPHICS SLIDER------------*/
+	$('.graphics-slider').owlCarousel({
+			items: 1,
+			loop:true,
+			nav:true,
+			dots: false,
+			autoplay: true,
+			autoplaySpeed: 5000
+	})
+/*------------GRAPHICS SLIDER------------*/
+
 });
