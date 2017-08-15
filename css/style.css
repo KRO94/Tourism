@@ -487,3 +487,88 @@ header {
 		max-width: 230px;
 	}
 /*---------------REVIEWS-BLOCK END---------------*/
+
+/*--------------FOOTER START--------------*/
+footer {
+	position: relative;
+	width: 100%;
+	color: #ffffff;
+}
+	footer .topBlock {
+		position: relative;
+		width: 100%;
+		background: #222222;
+		padding: 20px 0 25px;
+	}
+		footer .topBlock .block {
+			position: relative;
+			float: left;
+		}
+			footer .topBlock .block .mini-title {
+				font-size: 2rem;
+				font-weight: 700;
+				text-transform: uppercase;
+				line-height: 30px;
+				margin-bottom: 10px;
+			}
+			footer .topBlock .block p {
+				font-size: 1.5rem;
+				line-height: 18px;
+			}
+			footer .topBlock .block .menu {
+				position: relative;
+				width: 100%;
+				padding-left: 20px;
+			}
+				footer .topBlock .block .menu li {
+					list-style-image: url(../img/li.png);
+				}
+					footer .topBlock .block .menu li a {
+						font-size: 1.5rem;
+						line-height: 24px;
+					}
+			footer .topBlock .block span {
+				display: block;
+				font-size: 1.5rem;
+				line-height: 24px;
+				margin-bottom: 7px;
+			}
+				footer .topBlock .block span i {
+					color: #90be20;
+				}
+			footer .topBlock .block .social {
+				position: relative;
+				width: 100%;
+				list-style: none;
+			}
+				footer .topBlock .block .social li {
+					display: inline-block;
+					margin-right: 10px;
+				}
+					footer .topBlock .block .social li a {
+						font-size: 2rem;
+						color: #90be20;
+					}
+		footer .topBlock .block_1 {
+			max-width: 340px;
+			width: 56.66%;
+		}
+		footer .topBlock .block_2 {
+			max-width: 90px;
+			width: 15%;
+			margin: 0 23% 0 12%;
+		}
+		footer .topBlock .block_3 {
+			max-width: 170px;
+			width: 28.33%
+		}
+	footer .bottomBlock {
+		position: relative;
+		width: 100%;
+		background: #161616;
+		padding: 13px 0;
+		text-align: center;
+		font-size: 1.3rem;
+		line-height: 18px;
+	}
+/*---------------FOOTER END---------------*/
