@@ -35,7 +35,7 @@
 					<li><a href="#">РЕГІОНИ</a></li>
 					<li><a href="#">ВІДГУКИ</a></li>
 					<li><a href="#">ПРО НАС</a></li>
-					<li><a href="#">КОНТАКТИ</a></li>
+					<li><a href="contacts.php">КОНТАКТИ</a></li>
 				</ul>
 			</div>
 		</header>

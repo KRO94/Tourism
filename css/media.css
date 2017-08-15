@@ -289,6 +289,15 @@
 				float: none;
 			}
 	/*---------------FOOTER END---------------*/
+
+	/*--------------CONTACTS-PAGE START--------------*/
+	.contacts-page .wrap-contact .contactData .block {
+		font-size: 1.6rem;
+	}
+					.contacts-page .wrap-contact .contactForm .wpcf7 input:not([type=submit]) {
+						width: 100%;
+					}
+	/*---------------CONTACTS-PAGE END---------------*/
 }
 
 /* Custom, iPhone Retina */
