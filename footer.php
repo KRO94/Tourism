@@ -12,7 +12,7 @@
 							<li><a href="#">Регіони</a></li>
 							<li><a href="#">Відгуки</a></li>
 							<li><a href="#">Про нас</a></li>
-							<li><a href="#">Контакти</a></li>
+							<li><a href="contacts.php">Контакти</a></li>
 						</ul>
 					</div>
 					<div class="block block_3">

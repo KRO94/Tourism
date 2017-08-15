@@ -664,3 +664,80 @@ footer {
 					max-width: 176px;
 				}
 /*---------------CONTACTS-PAGE END---------------*/
+
+/*--------------GALLERY-PAGE START--------------*/
+.gallery-page {
+	position: relative;
+	width: 100%;
+	padding: 55px 0 80px;
+	text-align: center;
+}
+	.gallery-page .gallery-wrap {
+		position: relative;
+		width: 100%;
+		margin-top: 30px;
+	}
+		.gallery-page .gallery-wrap input {
+			display: none;
+		}
+		.gallery-page .gallery-wrap label {
+			color: #454545;
+			background: #eeeeee;
+			line-height: 32px;
+			padding: 0 15px;
+			margin: 0 10px;
+			font-weight: 400;
+		}
+		.gallery-page .gallery-wrap input:checked + label {
+			font-weight: 700;
+			color: #ffffff;
+			background: #016633;
+		}
+		.gallery-page .gallery-wrap .tab-content {
+			position: relative;
+			width: 100%;
+			margin-top: 30px;
+		}
+			.gallery-page .gallery-wrap .tab-content .tab-content-1,
+			.gallery-page .gallery-wrap .tab-content .tab-content-2 {
+				position: relative;
+				top: 0;
+				left: 0;
+				width: 100%;
+				display: none;
+			}
+			.gallery-page .gallery-wrap input[id=tab-1]:checked ~ .tab-content .tab-content-1,
+			.gallery-page .gallery-wrap input[id=tab-2]:checked ~ .tab-content .tab-content-2 {
+				display: block;
+			}
+		.gallery-page .gallery-wrap .tab-content .blockImg {
+			position: relative;
+			float: left;
+			margin-right: 2.5%;
+			margin-bottom: 30px;
+			height: 298px;
+			overflow: hidden;
+			z-index: 1;
+		}
+		.gallery-page .gallery-wrap .tab-content .blockImg:nth-child(3n) {
+			margin-right: 0;
+		}
+			.gallery-page .gallery-wrap .tab-content .blockImg img {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				max-width: 1140px;
+				min-height:	298px;
+			}
+		.gallery-page .gallery-wrap .tab-content .blockImg:nth-child(6n+1),
+		.gallery-page .gallery-wrap .tab-content .blockImg:nth-child(6n+6) {
+			width: 48.68%;
+		}
+		.gallery-page .gallery-wrap .tab-content .blockImg:nth-child(6n+2),
+		.gallery-page .gallery-wrap .tab-content .blockImg:nth-child(6n+3),
+		.gallery-page .gallery-wrap .tab-content .blockImg:nth-child(6n+4),
+		.gallery-page .gallery-wrap .tab-content .blockImg:nth-child(6n+5) {
+			width: 23.15%;
+		}
+/*---------------GALLERY-PAGE END---------------*/
