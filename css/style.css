@@ -70,6 +70,11 @@ p, hr, ol, ul {
 :focus::-moz-placeholder          {color: transparent}
 :focus:-moz-placeholder           {color: transparent}
 :focus:-ms-input-placeholder      {color: transparent}
+
+::selection {
+	background: #90BE20;
+	color: #ffffff;
+}
 /*--------------HEADER START--------------*/
 header {
 	position: relative;
@@ -741,3 +746,114 @@ footer {
 			width: 23.15%;
 		}
 /*---------------GALLERY-PAGE END---------------*/
+
+/*--------------TRAVEL-PAGE START--------------*/
+.travel-page {
+	position: relative;
+	width: 100%;
+	padding: 60px 0 0;
+}
+	.travel-page .block-form {
+		margin-top: 30px;
+		padding: 5px 0;
+		border-top: 1px solid #DDDDDD;
+		border-bottom: 1px solid #DDDDDD;
+	}
+		.travel-page .block-form form {
+			line-height: 38px;
+		}
+			.travel-page .block-form form select {
+				position: relative;
+				font-size: 1.5rem;
+				height: 38px;
+				text-indent: 20px;
+				max-width: 253px;
+				width: 22.19%;
+				margin-right: 4%;
+				margin-left: 1%;
+				outline-color: #90be20;
+			}
+			.travel-page .block-form form input {
+				width: 110px;
+				line-height: 35px;
+				font-weight: 600;
+				border: none;
+				font-size: 1.3rem;
+			}
+			.travel-page .block-form form hr {
+				border: none;
+				display: none;
+			}
+	.travel-page .block-travel {
+		position: relative;
+		width: 100%;
+		background: #f2f2f2;
+		padding: 30px 0 90px;
+	}
+		.blockTravel {
+		position: relative;
+		float: left;
+		max-width: 263px;
+		width: 23.07%;
+		margin-top: 30px;
+		margin-right: 2.57%;
+		}
+		.blockTravel:nth-child(4n) {
+			margin-right: 0;
+		}
+			.blockTravel .blockImg {
+				position: relative;
+				display: block;
+				width: 100%;
+				height: 211px;
+				z-index: 1;
+				overflow: hidden;
+			}
+				.blockTravel .blockImg img {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					max-width: 1140px;
+					min-height: 211px;
+				}
+			.blockTravel .blockText {
+				position: relative;
+				width: 100%;
+				padding: 14px 20px;
+				background: #ffffff;
+				line-height: 18px;
+			}
+				.blockTravel .blockText .name {
+					position: relative;
+					display: block;
+					font-weight: 700;
+					color: #016633;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+				.blockTravel .blockText .date {
+					font-size: 1.3rem;
+					margin: 5px 0;
+				}
+					.blockTravel .blockText .date i{
+						color: #90be20;
+					}
+				.blockTravel .blockText .info {
+					font-size: 1.3rem;
+				}
+				.blockTravel .blockText .info .ok{
+					color: #90BE20;
+				}
+				.blockTravel .blockText .info .error{
+					color: #FF0020;
+				}
+				.blockTravel .blockText .more {
+					font-weight: 600;
+					font-size: 1.3rem;
+					line-height: 35px;
+					max-width: 110px;
+					margin-top: 15px;
+				}
+/*---------------TRAVEL-PAGE END---------------*/

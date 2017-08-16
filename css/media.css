@@ -94,6 +94,26 @@
 				margin-right: 6.67%;
 			}
 	/*---------------GALLERY-PAGE END---------------*/
+
+	/*--------------TRAVEL-PAGE START--------------*/
+			.travel-page .block-form form {
+				text-align: center;
+			}
+				.travel-page .block-form form select {
+					width: 33.14%;
+					margin-right: 0;
+					margin-left: 0;
+				}
+				.travel-page .block-form form select:nth-child(2) {
+					margin-right: 15px;
+				}
+			.blockTravel,
+			.blockTravel:nth-child(4n) {
+				width: 36.52%;
+				margin-left: 6.74%;
+				margin-right: 6.74%;
+			}
+	/*---------------TRAVEL-PAGE END---------------*/
 }
 
 /* Small Devices, Tablets */
@@ -160,6 +180,29 @@
 				margin-right: 4%;
 			}
 	/*---------------GALLERY-PAGE END---------------*/
+
+	/*--------------TRAVEL-PAGE START--------------*/
+				.travel-page .block-form form select {
+					width: 100%;
+				}
+				.travel-page .block-form form select:nth-child(2) {
+					margin-right: auto;
+				}
+			.blockTravel,
+			.blockTravel:nth-child(4n) {
+				width: 40%;
+				margin-left: 5%;
+				margin-right: 5%;
+			}
+				.travel-page .block-form form hr {
+					display: block;
+					margin: 5px 0;
+				}
+				.travel-page .block-form form label {
+					min-width: 141px;
+					text-align: right;
+				}
+	/*---------------TRAVEL-PAGE END---------------*/
 }
 
 /* Extra Small Devices, Phones */
@@ -263,6 +306,14 @@
 				margin-right: 1%;
 			}
 	/*---------------GALLERY-PAGE END---------------*/
+			.blockTravel,
+			.blockTravel:nth-child(4n) {
+				float: none;
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+	/*---------------TRAVEL-PAGE END---------------*/
 }
 
 /* Extra Small Devices, Phones */
@@ -351,6 +402,12 @@
 				display: block;
 			}
 	/*---------------GALLERY-PAGE END---------------*/
+
+	/*--------------TRAVEL-PAGE START--------------*/
+				.travel-page .block-form form label {
+					text-align: center;
+				}
+	/*---------------TRAVEL-PAGE END---------------*/
 }
 
 /* Custom, iPhone Retina */

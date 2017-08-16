@@ -31,7 +31,7 @@
 				<a href="./" class="logo leftBlock"><img src="img/logo.png" alt="" class="img-responsive"></a>
 				<div class="mobile-menu rightBlock"><i class="fa fa-bars" aria-hidden="true"></i></div>
 				<ul class="menu rightBlock">
-					<li><a href="#">ПОЇЗДКИ</a></li>
+					<li><a href="poizdku.php">ПОЇЗДКИ</a></li>
 					<li><a href="#">РЕГІОНИ</a></li>
 					<li><a href="#">ВІДГУКИ</a></li>
 					<li><a href="#">ПРО НАС</a></li>

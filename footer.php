@@ -8,7 +8,7 @@
 					<div class="block block_2">
 						<div class="mini-title">РОЗДІЛИ</div>
 						<ul class="menu">
-							<li><a href="#">Поїздки</a></li>
+							<li><a href="poizdku.php">Поїздки</a></li>
 							<li><a href="#">Регіони</a></li>
 							<li><a href="#">Відгуки</a></li>
 							<li><a href="#">Про нас</a></li>
