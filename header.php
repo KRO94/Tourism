@@ -32,7 +32,7 @@
 				<div class="mobile-menu rightBlock"><i class="fa fa-bars" aria-hidden="true"></i></div>
 				<ul class="menu rightBlock">
 					<li><a href="poizdku.php">ПОЇЗДКИ</a></li>
-					<li><a href="#">РЕГІОНИ</a></li>
+					<li><a href="regions.php">РЕГІОНИ</a></li>
 					<li><a href="reviews.php">ВІДГУКИ</a></li>
 					<li><a href="#">ПРО НАС</a></li>
 					<li><a href="contacts.php">КОНТАКТИ</a></li>

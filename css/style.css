@@ -1021,3 +1021,19 @@ footer {
 					color: #a2a2a2;
 				}
 /*---------------REVIEWS-PAGE END---------------*/
+
+/*--------------REVIEWS-PAGE START--------------*/
+.regions-page {
+	position: relative;
+	width: 100%;
+	padding: 50px 0 80px;
+}
+	.regions-page .regionsBlock {
+		position: relative;
+		width: 100%;
+	}
+		.regions-page .blockTour {
+			overflow: hidden;
+			z-index: 1;
+		}
+/*---------------REVIEWS-PAGE END---------------*/

@@ -45,12 +45,12 @@
 	/*---------------BLOCK2 END---------------*/
 
 	/*--------------TRAVELS-BLOCK START--------------*/
-			.travels-block .travels-slider .blockTour:not(:nth-child(3n)),
-			.travels-block .travels-slider .blockTour {
+			.blockTour:not(:nth-child(3n)),
+			.blockTour {
 				width: 49%;
 				margin-right: 0;
 			}
-			.travels-block .travels-slider .blockTour:not(:nth-child(2n)) {
+			.blockTour:not(:nth-child(2n)) {
 				margin-right: 2%;
 			}
 	/*---------------TRAVELS-BLOCK END---------------*/
@@ -291,9 +291,9 @@
 	/*---------------BLOCK2 END---------------*/
 
 	/*--------------TRAVELS-BLOCK START--------------*/
-			.travels-block .travels-slider .blockTour:not(:nth-child(2n)),
-			.travels-block .travels-slider .blockTour:not(:nth-child(3n)),
-			.travels-block .travels-slider .blockTour {
+			.blockTour:not(:nth-child(2n)),
+			.blockTour:not(:nth-child(3n)),
+			.blockTour {
 				float: none;
 				margin-left: auto;
 				margin-right: auto;
@@ -398,8 +398,8 @@
 	/*---------------BLOCK2 END---------------*/
 
 	/*--------------TRAVELS-BLOCK START--------------*/
-					.travels-block .travels-slider .blockTour .blockText .name,
-					.travels-block .travels-slider .blockTour .blockText .price {
+					.blockTour .blockText .name,
+					.blockTour .blockText .price {
 						font-size: 1.8rem;
 					}
 	/*---------------TRAVELS-BLOCK END---------------*/

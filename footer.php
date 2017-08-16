@@ -9,7 +9,7 @@
 						<div class="mini-title">РОЗДІЛИ</div>
 						<ul class="menu">
 							<li><a href="poizdku.php">Поїздки</a></li>
-							<li><a href="#">Регіони</a></li>
+							<li><a href="regions.php">Регіони</a></li>
 							<li><a href="reviews.php">Відгуки</a></li>
 							<li><a href="#">Про нас</a></li>
 							<li><a href="contacts.php">Контакти</a></li>
