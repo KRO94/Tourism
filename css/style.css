@@ -70,11 +70,6 @@ p, hr, ol, ul {
 :focus::-moz-placeholder          {color: transparent}
 :focus:-moz-placeholder           {color: transparent}
 :focus:-ms-input-placeholder      {color: transparent}
-
-::selection {
-	background: #90BE20;
-	color: #ffffff;
-}
 /*--------------HEADER START--------------*/
 header {
 	position: relative;
@@ -857,3 +852,109 @@ footer {
 					margin-top: 15px;
 				}
 /*---------------TRAVEL-PAGE END---------------*/
+
+/*--------------SINGLE-PAGE START--------------*/
+.single-poizdku-page {
+	position: relative;
+	width: 100%;
+	padding: 55px 0 90px;
+}
+	.single-poizdku-page .price-tour {
+		position: relative;
+		text-align: center;
+		font-size: 3.6rem;
+		color: #90be20;
+		margin: 40px 0;
+		font-weight: 700;
+	}
+		.single-poizdku-page .wrap-block-day .block {
+			position: relative;
+			width: 100%;
+			background: #f3f3f3;
+			text-align: left;
+			margin-bottom: 20px;
+		}
+			.single-poizdku-page .wrap-block-day .block .top {
+				position: relative;
+				width: 100%;
+				line-height: 60px;
+				background: #016633;
+				text-indent: 30px;
+				color: #ffffff;
+				font-size: 3rem;
+				font-weight: 700;
+				cursor: pointer;
+			}
+				.single-poizdku-page .wrap-block-day .block .top span {
+					position: absolute;
+					right: 0;
+					top: 0;
+					width: 60px;
+					height: 60px;
+					line-height: 60px;
+					font-size: 1.8rem;
+					background-color: #098747;
+					text-align: center;
+					text-indent: 0;
+				}
+				.single-poizdku-page .wrap-block-day .block .top.active span i {
+					transition: all 1s ease;
+					transform: rotateZ(180deg);
+				}
+			.single-poizdku-page .wrap-block-day .block .bottom {
+				line-height: 28px;
+				padding: 15px 30px;
+				display: none;
+			}
+				.single-poizdku-page .wrap-block-day .block .bottom ul {
+					position: relative;
+					width: 100%;
+					list-style-image: url(../img/li-1.png);
+					padding-left: 20px;
+					margin-bottom: 10px;
+				}
+		.single-poizdku-page .blockPhoto .photo-big {
+			position: relative;
+			margin: 0 auto 10px;
+			width: 100%;
+			max-width: 555px;
+		}
+			.single-poizdku-page .blockPhoto .photo-big img {
+				width: 100%;
+			}
+		.single-poizdku-page .blockPhoto .photo-small {
+			position: relative;
+			margin: 0 auto;
+			width: 100%;
+			max-width: 555px;
+		}
+			.single-poizdku-page .blockPhoto .photo-small a {
+				position: relative;
+				float: left;
+				width: 23.6%;
+				max-width: 131px;
+				height: 131px;
+				overflow: hidden;
+				z-index: 1;
+				margin-bottom: 10px;
+				margin-right: 1.85%;
+			}
+			.single-poizdku-page .blockPhoto .photo-small a:nth-child(4n) {
+				margin-right: 0;
+			}
+			.single-poizdku-page .blockPhoto .photo-small a.active {
+				border: 5px solid #016633;
+			}
+			.single-poizdku-page .blockPhoto .photo-small a img {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				max-width: 1140px;
+				min-height: 131px;
+			}
+	.single-poizdku-page .blockBtn {
+		margin-top: 55px;
+		text-align: center;
+	}
+/*---------------SINGLE-PAGE END---------------*/

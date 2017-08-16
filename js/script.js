@@ -51,4 +51,34 @@ jQuery(document).ready(function(){
 	})
 /*------------GRAPHICS SLIDER------------*/
 
+/*------------SINGLE POIZDKU PAGE (SLIDEDOWN<-->SLIDEUP)------------*/
+$('.single-poizdku-page .wrap-block-day .block .top').click(function(){
+	if(!$(this).is('.active')){
+		clearTab();
+		$(this).addClass('active');
+		$(this).siblings('div').slideDown(600);
+	}
+	else {
+		clearTab();
+		}
+});
+
+function clearTab(){
+	$('.single-poizdku-page .wrap-block-day .block .top').removeClass('active');
+	$('.single-poizdku-page .wrap-block-day .block .top').siblings('div').slideUp(300);
+}
+/*------------SINGLE POIZDKU PAGE (SLIDEDOWN<-->SLIDEUP)------------*/
+
+/*----------------SMALL PHOTO --> BIG PHOTO--------------------------------*/
+	$('.single-poizdku-page .blockPhoto .photo-small a').hover(function(e){
+		if($('.single-poizdku-page .blockPhoto .photo-big img').attr('src') != $(this).attr('href')){
+			$('.single-poizdku-page .blockPhoto .photo-big img').hide().attr('src',$(this).attr('href'));
+			$('.single-poizdku-page .blockPhoto .photo-big img').fadeIn(200);
+		}
+		e.preventDefault();
+			$('.single-poizdku-page .blockPhoto .photo-small a').removeClass('active');
+			$(this).addClass('active');
+	});
+/*----------------SMALL PHOTO --> BIG PHOTO--------------------------------*/
+
 });
