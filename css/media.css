@@ -28,6 +28,12 @@
 					min-height: 107px;
 				}
 	/*---------------SINGLE-PAGE END---------------*/
+
+	/*--------------REVIEWS-PAGE START--------------*/
+				.reviews-page .reviews-wrap .wrapReviews .blockText {
+					width: 82.52%;
+				}
+	/*---------------REVIEWS-PAGE END---------------*/
 }
 
 /* Medium Devices, Desktops */
@@ -132,6 +138,12 @@
 					min-height: 81px;
 				}
 	/*---------------SINGLE-PAGE END---------------*/
+
+	/*--------------REVIEWS-PAGE START--------------*/
+				.reviews-page .reviews-wrap .wrapReviews .blockText {
+					width: 78.52%;
+				}
+	/*---------------REVIEWS-PAGE END---------------*/
 }
 
 /* Small Devices, Tablets */
@@ -230,6 +242,13 @@
 					min-height: 131px;
 				}
 	/*---------------SINGLE-PAGE END---------------*/
+
+	/*--------------REVIEWS-PAGE START--------------*/
+				.reviews-page .reviews-wrap .wrapReviews .blockText {
+					width: 74.52%;
+					text-align: justify;
+				}
+	/*---------------REVIEWS-PAGE END---------------*/
 }
 
 /* Extra Small Devices, Phones */
@@ -358,6 +377,12 @@
 					margin-left: 5%;
 				}
 	/*---------------SINGLE-PAGE END---------------*/
+
+	/*--------------REVIEWS-PAGE START--------------*/
+				.reviews-page .reviews-wrap .wrapReviews .blockText {
+					width: 65.52%;
+				}
+	/*---------------REVIEWS-PAGE END---------------*/
 }
 
 /* Extra Small Devices, Phones */
@@ -466,6 +491,24 @@
 					margin-left: 0.5%;
 				}
 	/*---------------SINGLE-PAGE END---------------*/
+
+	/*--------------REVIEWS-PAGE START--------------*/
+				.reviews-page .reviews-wrap .wrapReviews .blockImg {
+					float: none;
+					margin: 0 auto 10px;
+				}
+				.reviews-page .reviews-wrap .wrapReviews .blockText {
+					width: 100%;
+					margin-left: 0;
+				}
+					.reviews-page .reviews-wrap .wrapReviews .blockText .name {
+						text-align: center;
+					}
+					.reviews-page .reviews-wrap .wrapReviews .blockText .name,
+					.reviews-page .reviews-wrap .wrapReviews .blockText p {
+						font-size: 1.6rem;
+					}
+	/*---------------REVIEWS-PAGE END---------------*/
 }
 
 /* Custom, iPhone Retina */

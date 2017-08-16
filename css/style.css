@@ -98,6 +98,7 @@ header {
 				font-size: 1.5rem;
 				line-height: 24px;
 				text-align: center;
+				text-transform: uppercase;
 			}
 	header .mobile-menu {
 		position: relative;
@@ -958,3 +959,65 @@ footer {
 		text-align: center;
 	}
 /*---------------SINGLE-PAGE END---------------*/
+
+/*--------------REVIEWS-PAGE START--------------*/
+.reviews-page {
+	position: relative;
+	width: 100%;
+	padding: 45px 0 200px;
+}
+	.reviews-page .reviews-wrap {
+		position: relative;
+		width: 100%;
+	}
+		.reviews-page .reviews-wrap .wrapReviews {
+			position: relative;
+			width: 100%;
+			padding: 30px 0;
+			border-bottom: 1px dashed #c5c5c5;
+		}
+			.reviews-page .reviews-wrap .wrapReviews .blockImg {
+				position: relative;
+				display: block;
+				float: left;
+				width: 134px;
+				height: 134px;
+				border-radius: 50%;
+				z-index: 1;
+				overflow: hidden;
+			}
+				.reviews-page .reviews-wrap .wrapReviews .blockImg img {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					max-width: 1140px;
+					min-height:	134px;
+				}
+			.reviews-page .reviews-wrap .wrapReviews .blockText {
+				position: relative;
+				display: block;
+				float: left;
+				text-align: left;
+				max-width: 975px;
+				width: 85.52%;
+				margin-left: 2.63%;
+				line-height: 26px;
+				padding: 5px 0;
+			}
+				.reviews-page .reviews-wrap .wrapReviews .blockText .name {
+					text-transform: uppercase;
+					font-weight: 700;
+					font-size: 1.8rem;
+					color: #016633;
+				}
+				.reviews-page .reviews-wrap .wrapReviews .blockText p {
+					font-size: 1.8rem;
+					color: #454545;
+					margin: 10px 0;
+				}
+				.reviews-page .reviews-wrap .wrapReviews .blockText .date {
+					font-size: 1.4rem;
+					color: #a2a2a2;
+				}
+/*---------------REVIEWS-PAGE END---------------*/

@@ -33,7 +33,7 @@
 				<ul class="menu rightBlock">
 					<li><a href="poizdku.php">ПОЇЗДКИ</a></li>
 					<li><a href="#">РЕГІОНИ</a></li>
-					<li><a href="#">ВІДГУКИ</a></li>
+					<li><a href="reviews.php">ВІДГУКИ</a></li>
 					<li><a href="#">ПРО НАС</a></li>
 					<li><a href="contacts.php">КОНТАКТИ</a></li>
 				</ul>
